@@ -13,7 +13,7 @@ export default function Film({filmem}:FilmProps){
             <p><span>Studió: </span>{filmem.studio}</p>
             <p><span>Megjelenési év: </span>{filmem.megjelenesiEv}</p>
             <p><span>Film értékelése: </span>{filmem.ertekeles}</p>
-            <img className="FilmKep" src={filmem.kep} alt={filmem.cim} />
+            <img className="FilmKep" src={`${import.meta.env.BASE_URL}${filmem.kep}`} alt={filmem.cim} />
             <button>Kiválaszt</button>
         </div>
         </>

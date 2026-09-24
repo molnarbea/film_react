@@ -15,7 +15,7 @@ export const FILMLISTA: FilmTipus[] = [
     studio: "Pixar",
     megjelenesiEv: 2017,
     ertekeles: 8.4,
-    kep: "public/kepek/coco.jpg"
+    kep: "kepek/coco.jpg"
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ export const FILMLISTA: FilmTipus[] = [
     studio: "Disney",
     megjelenesiEv: 2013,
     ertekeles: 7.4,
-    kep: "public/kepek/frozen.jpg"
+    kep: "kepek/frozen.jpg"
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ export const FILMLISTA: FilmTipus[] = [
     studio: "DreamWorks",
     megjelenesiEv: 2001,
     ertekeles: 7.9,
-    kep: "public/kepek/shrek.jpg"
+    kep: "kepek/shrek.jpg"
   },
   {
     id: 4,
@@ -39,6 +39,6 @@ export const FILMLISTA: FilmTipus[] = [
     studio: "DreamWorks",
     megjelenesiEv: 2010,
     ertekeles: 8.1,
-    kep: "public/kepek/httyd.jpg"
+    kep: "kepek/httyd.jpg"
   }
 ];
