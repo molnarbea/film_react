@@ -1,0 +1,45 @@
+.film{
+    opacity: 40%;
+    border: 2px rgb(75, 9, 9) solid;
+    margin: 20px;
+    padding: 5px;
+
+}
+
+ h1{
+    color: rgb(112, 18, 18);
+}
+
+.film h2{
+    color: rgb(155, 7, 7);
+}
+.film p{
+    color: rgb(145, 71, 22);
+    padding: 5px;
+}
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+button{
+    padding: 10px;
+    margin: 5px;
+}
+footer{
+    color: rgb(160, 68, 6);
+}
+.film button{
+    background-color: rgb(112, 18, 18);
+}
+.FilmKep{
+    
+    border: 1px rgb(75, 9, 9) solid;
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+.film:hover{
+    opacity: 100%;
+}
+    
